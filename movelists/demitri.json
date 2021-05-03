@@ -85,12 +85,10 @@
 	},
 	"custom_strings": {
 		"english": {
-			"mashThrow": "wiggle the joystick and tap [K] for more damage",
-			"sameStrenghtPunchAndKick": "same strenght [P]+[K]"
+			"mashThrow": "wiggle the joystick and tap [K] for more damage"
 		},
 		"portuguese": {
-			"mashThrow": "Gire o direcional e aperte [K] repetidamente para aumentar o dano",
-			"sameStrenghtPunchAndKick": "[P]+[K] de mesma intensidade"
+			"mashThrow": "Gire o direcional e aperte [K] repetidamente para aumentar o dano"	
 		}
 	}
 }
