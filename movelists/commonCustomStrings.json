@@ -1,0 +1,18 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "pursuit": "Pursuit",
+        "uniqueAttacks": "Unique Attacks",
+        "specialMoves": "Special Moves",
+        "exMoves": "EX Moves",
+        "darkForce": "Dark Force"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "pursuit": "Pursuit",
+        "uniqueAttacks": "Ataques Únicos",
+        "specialMoves": "Golpes Especiais",
+        "exMoves": "Golpes EX",
+        "darkForce": "Dark Force"
+    }
+}
