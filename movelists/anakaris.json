@@ -49,7 +49,7 @@
 			},
 			{
 				"name": "Warp",
-				"input": "{backTurnedInCorner}, :b::b:"
+				"input": "{backInCorner}, :b::b:"
 			}
 		],
 		"{pursuit}": [
@@ -130,12 +130,12 @@
 	},
 	"custom_strings": {
 		"english": {
-			"backTurnedInCorner": "with your back turned against the corner",
+			"backInCorner": "with your back against the corner",
 			"anakarisInhale": "Makes Anakaris try to absorb a projectile",
 			"anakarisExhale": "If Kotodama Gaeshi (Inhale) was sucessful, makes Anakaris spit the projectile back at his opponent"
 		},
 		"portuguese": {
-			"backTurnedInCorner": "de costas para o canto da tela",
+			"backInCorner": "de costas para o canto da tela",
 			"anakarisInhale": "Faz Anakaris tentar absorver um projétil",
 			"anakarisExhale": "Se Kotodama Gaeshi (Inhale) absorveu um projétil, faz Anakaris devolver o projétil"
 		}
