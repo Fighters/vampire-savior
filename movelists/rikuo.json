@@ -1,0 +1,125 @@
+{
+    "names": {
+        "default": {
+            "roman": "Rikuo"
+        },
+        "japan": {
+            "roman": "Aulbath",
+            "original": "オルバス"
+        }
+    },
+    "images": {
+        "face": "rikuo.webp"
+    },
+    "moves": {
+        "{normalThrows}": [
+            {
+                "name": "Landfisher",
+                "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+            },
+            {
+                "name": "Tongue Lash 2nd",
+                "input": ":b:",
+                "after": "Landfisher"
+            },
+            {
+                "name": "Cataract Cry",
+                "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+            }
+        ],
+        "{uniqueAttacks}": [
+            {
+                "name": "Spinning Current",
+                "input": "{duringForwardDash}, {press} [HP]"
+            },
+            {
+                "name": "Killer Vortex",
+                "input": "{inAir}, :d:+[HK]"
+            }
+        ],
+        "{pursuit}": [
+            {
+                "name": "Riverside Drop",
+                "input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+                "canBeUpgraded": true
+            }
+        ],
+        "{specialMoves}": [
+            {
+                "name": "Trick Fish 1st",
+                "input": "{duringBackDash}, {press} [K]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Trick Fish 2nd",
+                "input": ":dp:+[K]",
+                "canBeUpgraded": true,
+                "guardCancel": true
+            },
+            {
+                "name": "Sonic Wave",
+                "input": "{charge} :b: :f:+[P]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Poison Breath",
+                "input": "{charge} :b: :f:+[K]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Crystal Lancer",
+                "input": "{close}, :hcb:+[MP] {or} [HP]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Gem's Anger",
+                "input": "{close}, :hcb:+[MK] {or} [HK]",
+                "canBeUpgraded": true
+            }
+        ],
+        "{exMoves}": [
+            {
+                "name": "Sea Rage",
+                "input": ":hcf:+[P]+[P]"
+            },
+            {
+                "name": "Water Jail",
+                "input": ":dp:+[P]+[P]"
+            },
+            {
+                "name": "Aqua Spread",
+                "input": ":f::df::d:+[P]+[P] {or} [K]+[K]",
+                "extraInfo": "{aquaSpreadDelay}"
+            },
+            {
+                "name": "Direct Scissors",
+                "input": ":d::d:+[P]+[P]",
+                "exMoveCost": 3,
+                "extraInfo": "{directScissorsInfo}"
+            }
+        ],
+        "{darkForce}": [
+            {
+                "name": "Ocean Rage",
+                "input": "{sameStrenghtPunchAndKick}",
+                "extraInfo": "{oceanRageInfo}"
+            }
+        ]
+    },
+    "custom_strings": {
+        "english": {
+            "duringForwardDash": "during a forward dash",
+            "duringBackDash": "during a backdash",
+            "aquaSpreadDelay": "if done with [P]+[P], hold the buttons to delay",
+            "directScissorsInfo": "can only be performed if Rikuo was chosen with [LP] {or} [MP]",
+            "oceanRageInfo": "{use} {directional} {toMove}; {press} [LK]+[MK]+[HK] to get off the crab"
+        },
+        "portuguese": {
+            "duringForwardDash": "durante um dash para frente",
+            "duringBackDash": "during um dash para trás",
+            "aquaSpreadDelay": "se feito com [P]+[P], segure os botões para atrasar",
+            "directScissorsInfo": "só pode ser feito se Rikuo foi escolhido com [LP] {or} [MP]",
+            "oceanRageInfo": "{use} {directional} {toMove}; {press} [LK]+[MK]+[HK] para sair de cima do caranguejo"
+        }
+    }
+}
