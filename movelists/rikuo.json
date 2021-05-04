@@ -108,15 +108,11 @@
     },
     "custom_strings": {
         "english": {
-            "duringForwardDash": "during a forward dash",
-            "duringBackDash": "during a backdash",
             "aquaSpreadDelay": "if done with [P]+[P], hold the buttons to delay",
             "directScissorsInfo": "can only be performed if Rikuo was chosen with [LP] {or} [MP]",
             "oceanRageInfo": "{use} {directional} {toMove}; {press} [LK]+[MK]+[HK] to get off the crab"
         },
         "portuguese": {
-            "duringForwardDash": "durante um dash para frente",
-            "duringBackDash": "during um dash para trás",
             "aquaSpreadDelay": "se feito com [P]+[P], segure os botões para atrasar",
             "directScissorsInfo": "só pode ser feito se Rikuo foi escolhido com [LP] {or} [MP]",
             "oceanRageInfo": "{use} {directional} {toMove}; {press} [LK]+[MK]+[HK] para sair de cima do caranguejo"
