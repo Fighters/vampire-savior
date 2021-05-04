@@ -1,0 +1,122 @@
+{
+	"names": {
+		"default": {
+			"roman": "J. Talbain"
+		},
+		"japan": {
+			"roman": "Gallon",
+			"original": "レイレイ"
+		}
+	},
+	"images": {
+		"face": "jtalbain.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Rapid Crunch",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Canyon Rounder",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Canyon Flyer",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "Sadness Wind",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Quick Hop",
+				"input": ":d:+[LK]+[MK]+[HK]"
+			}
+		],
+		"{pursuit}": [
+			{
+				"name": "Strike Wolf",
+				"input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+				"canBeUpgraded": true
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "Beast Cannon (Forward)",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true
+			},
+				{
+					"name": "Cannon Direction Change",
+					"input": "{anyDirection}+[P]",
+					"after": "Beast Cannon (Forward)",
+					"extraInfo": "{cannonDirectionChangeES}"
+				},
+			{
+				"name": "Beast Cannon (Rising)",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true,
+				"guardCancel": true
+			},
+				{
+					"name": "Cannon Direction Change",
+					"input": "{anyDirection}+[P]",
+					"after": "Beast Cannon (Rising)",
+					"extraInfo": "{cannonDirectionChangeES}"
+				},
+			{
+				"name": "Beast Cannon (Diving)",
+				"input": "{inAir}, :qcf:+[P]",
+				"canBeUpgraded": true
+			},
+				{
+					"name": "Cannon Direction Change",
+					"input": "{anyDirection}+[P]",
+					"after": "Beast Cannon (Diving)",
+					"extraInfo": "{cannonDirectionChangeES}"
+				},
+			{
+				"name": "Million Flicker",
+				"input": ":qcb:+[P] ({tap} [P} {repeatedly} {forMoreHits})",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Climb Razor",
+				"input": ":d::u:+[K]",
+				"canBeUpgraded": true
+			},
+			{
+				"name": "Wild Circular",
+				"input": "{close}, :hcb:+[MK] {or} [HK]",
+				"canBeUpgraded": true
+			}
+		],
+		"{exMoves}": [
+			{
+				"name": "Dragon Cannon",
+				"input": ":hcf:+[K]+[K]"
+			},
+			{
+				"name": "Moment Slice",
+				"input": "[LP] > [MP] > :f: > [LK] > [MK]"
+			}
+		],
+		"{darkForce}": [
+			{
+				"name": "Mirage Body",
+				"input": "{sameStrenghtPunchAndKick}"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"cannonDirectionChangeES": "Can be performed 4 times if done from Beast Cannon's ES version"
+		},
+		"portuguese": {
+			"cannonDirectionChangeES": "Pode ser feito 4 vezes durante a versão ES do Beast Cannon"
+		}
+	}
+}
