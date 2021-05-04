@@ -1,0 +1,104 @@
+{
+    "names": {
+        "default": {
+            "roman": "Sasquatch"
+        },
+        "japan": {
+            "roman": "Sasquatch",
+            "original": "サスカッチ"
+        }
+    },
+    "images": {
+        "face": "sasquatch.webp"
+    },
+    "moves": {
+        "{normalThrows}": [
+            {
+                "name": "Big Bomb",
+                "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+            },
+            {
+                "name": "Big Air",
+                "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+            }
+        ],
+        "{uniqueAttacks}": [
+            {
+                "name": "Dash Interrupt",
+                "input": "{duringForwardDash}, :b:"
+            }
+        ],
+        "{pursuit}": [
+            {
+                "name": "Big Wheel",
+                "input": "{withOpponentKnockedDown}, :u:+[P] {or} [K]",
+                "canBeUpgraded": true
+            }
+        ],
+        "{specialMoves}": [
+            {
+                "name": "Big Breath",
+                "input": ":qcf:+[P]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Big Blow",
+                "input": ":dp:+[P] ({hold} [P] {toCharge})",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Big Typhoon",
+                "input": ":dp:+[K]",
+                "canBeUpgraded": true,
+                "guardCancel": true
+            },
+            {
+                "name": "Big Towers",
+                "input": ":d::d:+[P]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Big Brunch",
+                "input": "{close}, :hcb:+[P]",
+                "canBeUpgraded": true
+            },
+            {
+                "name": "Big Swing",
+                "input": "{close}, :360:+[K]",
+                "canBeUpgraded": true
+            }
+        ],
+        "{exMoves}": [
+            {
+                "name": "Big Sledge",
+                "input": "{close}, :360::360:+[K]+[K]"
+            },
+            {
+                "name": "Big Freeze",
+                "input": ":hcf:+[P]+[P]"
+            },
+            {
+                "name": "Big Ice Burn",
+                "input": ":hcf:+[K]+[K]"
+            },
+            {
+                "name": "Big Trap",
+                "input": ":hcf:+{taunt}"
+            }
+        ],
+        "{darkForce}": [
+            {
+                "name": "Big Resistor",
+                "input": "[LP]+[LK] {or} [MP]+[MK]"
+            },
+            {
+                "name": "Big Resistor with M.A.P.S.",
+                "input": "[HP]+[HK]"
+            }
+        ]
+    },
+    "custom_strings": {
+        "english": {},
+        "portuguese": {}
+    }
+}
