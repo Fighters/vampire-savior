@@ -76,7 +76,7 @@
             },
             {
                 "name": "Prova di Servo",
-                "input": ":hcf:+[K]+[K] ({press} [K] {toAttack})"
+                "input": ":hcf:+[K]+[K], {press} [K] {toAttack}"
             }
         ],
         "{darkForce}": [
